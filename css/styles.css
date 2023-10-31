@@ -33,7 +33,7 @@
 body {
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
-  background-color: var(--background-color);
+  background-.listcolor: var(--background-color);
   color: var(--styl-color);
 
   ul {
@@ -530,7 +530,7 @@ img {
 }
 .flex__ {
   display: flex;
-
+  justify-content: flex-start;
   align-items: center;
   gap: 332px;
 }
@@ -921,10 +921,11 @@ img {
   cursor: pointer;
 
   border: none;
-  margin-left: 70px;
+  margin: 0px auto;
+
 }
 .footer-mail-icons {
-  margin-left: 16px;
+ 
 }
 
 .acapit_modal {
@@ -1125,16 +1126,30 @@ margin-left: 16px;
 
 }
 .nowa {
+  margin:0px auto;
  
-  width: 264px;
+  width:264px;
  
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+
+@media screen and (min-width: 428px) {
+  .container {
+    width: 428px;
+  }
+
+
+}
 @media screen and (min-width: 768px) {
-  body {
-    
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .container {
+    width: 1158px;
   }
 }
