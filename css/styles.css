@@ -1143,6 +1143,17 @@ margin-left: 16px;
   .container {
     width: 428px;
   }
+  .hero {
+ 
+   
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(/images/Dark-bg@1x.jpg)
+      url(/images/Dark-bg@2x.jpg);
+  
+  }
 
 
 }
@@ -1170,7 +1181,8 @@ margin-left: 16px;
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(/images/people-office\ 1@2x.jpg);
+      url(/images/Dark-bgg@1x.jpg)
+      url(/images/Dark-bgg@2x.jpg);
   
   }
   
@@ -1309,6 +1321,17 @@ gap: 24px;
 .icon
 {
   display: block;
+}
+.hero {
+ 
+   
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(/images/people-office\ 1@1x.jpg)
+    url(/images/people-office\ 1@2x.jpg);
+
 }
 .sectionnn_ {
  display: block;
