@@ -92,7 +92,9 @@ body {
     ),
     url(/images/res/Dark-bg.jpg);
   background-position: center;
-  background-size: cover;
+  width: 428px;
+  height: 432px;
+  background-size: 428px 432px;
 }
 /* tło pod header */
 /* tło pod header */
@@ -1146,8 +1148,11 @@ margin-left: 16px;
   @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
-  .box {
-    background-image: url('photo@2x.png');
+  .hero {
+    background-image:linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ), url('/images/Dark-bg@2x.jpg');
   }
 }
 
@@ -1177,9 +1182,23 @@ margin-left: 16px;
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(/images/people-office\ 1@2x.jpg);
+      url('/images/Dark-bgg.jpg');
+      width: 768px;
+      height: 436px; 
+background-size: 768px 436px;
+
   
   }
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image:linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ), url('/images/Dark-bgg@2x.jpg');
+  }
+}
   
   .calc {
  
@@ -1300,6 +1319,30 @@ gap: 24px;
 @media screen and (min-width: 1158px) {
   .container {
     width: 1158px;
+  }
+  .hero {
+ 
+   
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url('/images/p2.jpg');
+      width: 1440px;
+      height: 676px; 
+background-size: 1440px 676px;
+
+  
+  }
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    
+    background-image:linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ), url('/images/p2@2x.jpg');
   }
   .margin {
     /* margin-left: 15px; */
