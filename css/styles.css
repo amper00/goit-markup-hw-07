@@ -92,9 +92,7 @@ body {
     ),
     url(/images/res/Dark-bg.jpg);
   background-position: center;
-  width: 428px;
-  height: 432px;
-  background-size: 428px 432px;
+ 
 }
 /* tło pod header */
 /* tło pod header */
@@ -1183,9 +1181,7 @@ margin-left: 16px;
         rgba(46, 47, 66, 0.7)
       ),
       url('/images/Dark-bgg.jpg');
-      width: 768px;
-      height: 436px; 
-background-size: 768px 436px;
+
 
   
   }
@@ -1328,9 +1324,7 @@ gap: 24px;
         rgba(46, 47, 66, 0.7)
       ),
       url('/images/p2.jpg');
-      width: 1440px;
-      height: 676px; 
-background-size: 1440px 676px;
+
 
   
   }
