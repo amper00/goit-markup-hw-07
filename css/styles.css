@@ -192,6 +192,7 @@ body
 }
 
 .web {
+
   display: flex;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -1302,7 +1303,7 @@ margin-left: 16px;
     background-image:linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
-    ), url('/images/Dark-bg@2x.jpg');
+    ), url('../images/Dark-bg@2x.jpg');
     padding: 112px 0;
   }
 }
