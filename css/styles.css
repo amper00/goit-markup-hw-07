@@ -1472,7 +1472,7 @@ gap: 24px;
 }
 
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1200px) {
   .container {
     width: 1158px;
   }
@@ -1536,6 +1536,11 @@ gap: 24px;
  
  
 }
+.footer-padd {
+  
+  padding: 120px 0;
+  
+}
 .container_menu {
   
 flex-direction: row;
@@ -1543,3 +1548,13 @@ gap:40px;
 padding-left: 160px;
 
 }
+.sectionn_ {
+  
+    padding: 120px 0;
+    
+  }
+  .what {
+  
+    padding: 120px 0;
+  }
+
