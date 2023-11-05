@@ -177,8 +177,9 @@ body
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/res/Dark-bg.jpg);
+    url('../images/res/Dark-bg.jpg');
   background-position: center;
+  background-size: cover;
  
 }
 /* tło pod header */
@@ -1302,6 +1303,7 @@ margin-left: 16px;
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ), url('/images/Dark-bg@2x.jpg');
+    padding: 112px 0;
   }
 }
 
@@ -1334,7 +1336,8 @@ margin-left: 16px;
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url('/images/Dark-bgg.jpg');
+      url('../images/Dark-bgg.jpg');
+      padding: 188px 0;
 
 
   
@@ -1346,7 +1349,7 @@ margin-left: 16px;
     background-image:linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
-    ), url('/images/Dark-bgg@2x.jpg');
+    ), url('../images/Dark-bgg@2x.jpg');
   }
 }
 .menu-toggle {
@@ -1482,7 +1485,7 @@ gap: 24px;
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url('/images/p2.jpg');
+      url('../images/p2.jpg');
 
 
   
@@ -1495,7 +1498,7 @@ gap: 24px;
     background-image:linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
-    ), url('/images/p2@2x.jpg');
+    ), url('../images/p2@2x.jpg');
   }
   .margin {
     /* margin-left: 15px; */
@@ -1538,4 +1541,3 @@ gap:40px;
 padding-left: 160px;
 
 }
-
