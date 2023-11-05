@@ -168,7 +168,7 @@ body
 /* tło pod header */
 /* tło pod header */
 .hero {
- 
+
   margin: 0 auto;
   padding: 188px 0;
   background: var(--styl-colorrr);
@@ -1495,7 +1495,7 @@ gap: 24px;
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero {
-    
+    width: 1440px;
     background-image:linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
