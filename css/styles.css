@@ -1493,7 +1493,7 @@ gap: 24px;
   }
   @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+  (min-resolution: 2dppx) 
   .hero {
   max-width: 1440px;
     
@@ -1557,4 +1557,4 @@ padding-left: 160px;
   
     padding: 120px 0;
   }
-
+}
