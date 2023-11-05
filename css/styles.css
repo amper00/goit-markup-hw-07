@@ -730,10 +730,11 @@ img {
 {
   list-style-type: none;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   padding-top: 48px;
+align-items: center;
 
-  gap:56px;
+ 
 }
 
 .media-list {
@@ -1481,7 +1482,7 @@ gap: 24px;
   }
   .hero {
  
-   
+    max-width: 1440px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
