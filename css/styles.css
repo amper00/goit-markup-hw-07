@@ -1524,6 +1524,13 @@ gap: 24px;
   justify-content: center;
   align-items: center;
 }
+.footer_input 
+{
+
+padding-left: 80px;
+
+  
+}
 .sectionnn_ {
  display: block;
 }
