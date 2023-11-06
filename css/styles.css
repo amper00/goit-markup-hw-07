@@ -1410,10 +1410,7 @@ margin-left: 16px;
   align-items: baseline;
   justify-content: flex-start;
 }
-.margin {
-  /* margin-left: 15px; */
-  margin-right: 120px;
-}
+
 .footer {
   color: var(--background-colorr);
   line-height: 1.5;
@@ -1442,7 +1439,7 @@ display: flex;
 .footer_inputt
  {
 display: flex;
-gap:16px;
+gap:24px;
 
 
   }
