@@ -1430,6 +1430,7 @@ margin-left: 16px;
   display: flex;
 flex-wrap: wrap;
 display: flex;
+gap:0px;
 
 }
 .footer_window
@@ -1465,7 +1466,7 @@ flex-wrap: wrap;
 display: flex;
 align-items: baseline;
 justify-content: flex-start;
-gap: 24px;
+gap: 0px;
 
 }
 
